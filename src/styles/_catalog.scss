@@ -1,13 +1,9 @@
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-columns: repeat(1, 200px);
   gap: 48px;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: 487px) {
-    grid-template-columns: auto;
-  }
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, auto);
